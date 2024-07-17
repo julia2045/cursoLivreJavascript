@@ -32,13 +32,13 @@ document.querySelector('button').addEventListener('click', () =>{
     if(IMC > 18.5){
         document.getElementById('estado').innerHTML = "Você está abaixo do peso."
     }
-    else if(IMC >= 18.5 || === 24.9){
+    else if(IMC >= 18.5 && IMC === 24.9){
         document.getElementById('estado').innerHTML = "Você está com o peso normal!"
     }
-    else if(IMC <= 25 && > 29.9){
+    else if(IMC >= 25 && IMC < 29.9){
         document.getElementById('estado').innerHTML = "Você está com Sobrepeso."
     }
-    else if(IMC <= 30 && > 39.9){
+    else if(IMC <= 30 && IMC < 39.9){
         document.getElementById('estado').innerHTML = "Você está com Obesidade."
     }
     else if(IMC > 40){

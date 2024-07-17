@@ -26,10 +26,30 @@ select, input, button{
 
 .informations, .result{
     font-family: "poppins", sans-serif;
-    color: #fff;
+    color:#fff;
     font-weight: 700;
 }
 
 li{
     list-style: none;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+}
+span{
+    color: red;
+
 }
