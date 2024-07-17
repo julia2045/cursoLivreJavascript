@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+button{
+    color: rgb(131, 131, 131);
+    border: none;
+    background-color: rgb(157, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+}

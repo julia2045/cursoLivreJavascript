@@ -1,0 +1,11 @@
+.class1{
+width: 100px;
+height: 100px;
+border-radius: 10px;
+border: 2px solid rgb(95, 95, 95);
+background-color: rgb(194, 149, 236);
+}
+.class3{
+    font-size: 20px;
+    color: aqua;
+}

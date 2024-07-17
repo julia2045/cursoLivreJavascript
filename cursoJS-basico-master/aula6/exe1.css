@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+
+
+div{
+    background-color: rgb(147, 80, 209);
+    display: flex;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    position: absolute; /* Posicionamento absoluto */
+    top: 50%; /* A partir do topo, 50% da altura da tela */
+    left: 50%; /* A partir da esquerda, 50% da largura da tela */
+    transform: translate(-50%, -50%); /* Corrige para centralizar perfeitamente */
+    border-radius: 40px;
+}
+
+
+button{
+    margin: 40%;
+    background-color: #fff;
+    color: rgb(147, 80, 209);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
